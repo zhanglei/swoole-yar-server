@@ -1,0 +1,27 @@
+{
+    "name": "easth/swoole-yar-server",
+    "type": "library",
+    "description": "swoole-yar-server can help you work with yar and swoole.",
+    "keywords": ["yar", "swoole", "performance", "framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ruolinn",
+            "email": "guangxiao.wang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "ext-swoole" : "1.8.*",
+        "symfony/console": "^3.1",
+        "illuminate/container": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Easth\\Server\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/swoole-yar-server"
+    ]
+}
